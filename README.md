@@ -7,6 +7,8 @@ This exercise was performed as a learning activity to learn pyspark and sparkSQL
 
 The aim of this project is to extract as many cyber security relevant information as possible. Below queries have been performed in this codebase.
 
+The code also uses the Virus Total public API to determine whether the IP is malicious or not. (https://www.virustotal.com/api/v3/ip_addresses/"+ip)
+
 ### 1. Count the number of occurrences of each HTTP status code
 ### 2. Show list of unsuccessful requests (Status code not 200)
 ### 3. Find the top 10 IP addresses making requests and whether they are malicious or not
